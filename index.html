@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>MovieInfo</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+
+		<h1>OMDB</h1>
+		
+		<nav>
+			<input id="searchTerm" type="text" placeholder="search by title">
+			<button id="search">Search</button>
+		</nav>	
+
+		
+	</header>
+
+	<div class="movie">
+
+		<div class="poster">
+			<img id="poster" src="" alt="">
+		</div>
+
+		<div class="info">
+			<h1 id="title"></h1>
+			<p id="year"></p>
+			<p id="runtime"></p>
+			<p id="rated"></p>
+			<p id="imdbRating"></p>
+			<p id="plot"></p>	
+		</div>
+
+	</div>
+
+
+
+	
+
+
+
+
+	<script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js"
+  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		crossorigin="anonymous"></script>
+	<script src="config.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
